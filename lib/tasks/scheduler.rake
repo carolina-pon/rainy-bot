@@ -3,7 +3,7 @@ task :update_feed => :environment do
   require 'line/bot'  # gem 'line-bot-api'
   require 'open-uri'
   require 'kconv'
-  require 'rexml/document'　# この記述でrubyでxmlファイルが読み込める
+  require 'rexml/document'
 
   # line-bot側の設定
   # herokuにデプロイ後に、ENV["LINE_CHANNEL_SECRET"]、ENV["LINE_CHANNEL_TOKEN"]を登録する。

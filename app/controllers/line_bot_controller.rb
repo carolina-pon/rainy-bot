@@ -1,4 +1,4 @@
-class LinebotController < ApplicationController
+class LineBotController < ApplicationController
   require 'line/bot'  # gem 'line-bot-api'
   require 'open-uri'
   require 'kconv'
